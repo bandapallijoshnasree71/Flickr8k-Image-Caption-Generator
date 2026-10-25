@@ -1,0 +1,19 @@
+# Virtual environments
+.venv/
+.venv-1/
+.venv-new/
+
+# Large datasets and archives (Exceeds GitHub 100MB limit)
+Images/
+Images.zip
+captions.txt
+
+# Cached feature vectors and model binaries (Exceeds GitHub 100MB limit)
+features.pkl
+caption_model.keras
+
+# Python and OS caches
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
